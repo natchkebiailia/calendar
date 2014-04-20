@@ -1,0 +1,13 @@
+@media only screen
+and (max-width : 1099px) {
+	.calendar{width:825px;height:100%;margin:0 auto;}
+}
+@media only screen
+and (min-width : 551px) and (max-width : 824px) {
+	.calendar{width:550px;height:100%;margin:0 auto;}
+}
+
+@media only screen
+and (max-width : 549px) {
+	.calendar{width:225px;height:100%;margin:0 auto;}
+}

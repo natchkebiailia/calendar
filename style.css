@@ -1,0 +1,23 @@
+body{margin:0;-webkit-touch-callout: none;-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;cursor:default;}
+table{border-spacing:0}
+.calendar{width:1100px;height:100%;margin:0 auto;}
+.month{clear:none;margin:0 15px 0px 0;float:left;width: 260px;height: 220px;}
+.caln table{width:100%}
+.caln td,.caln th{font-size:15px;line-height:18px;text-align:right;cursor:default;}
+.caln th{text-align:center;font-size:16px;font-weight:bold;line-height:27px;color:#c35;text-transform:capitalize;border-bottom:1px solid #ccc}
+.caln th a:link,.caln th a:visited{border:0}
+.caln:hover th.nextp a{color:#ccc}
+.caln th.nextp a:hover{color:#000}
+.caln .dayheaders{font-weight:normal}
+.caln .dayheaders td{padding:4px 6px 0 0;font-size:10px;color:#000;text-align:right;font-weight:bold;border-bottom:1px solid #ccc}
+.caln .wn{font-weight:normal;font-size:10px;color:#999;padding-left:0;width:9px;text-align:left;white-space:nowrap}
+.caln .today span{border-color:#c35;color:#000}
+.caln td.chosen a span{border-color:#000;background:#eee;color:#000;}
+.caln a:link,.caln a:visited{display:block;color:#000;padding:2px 2px 0px 1px;text-decoration:none;border:0;}
+.caln a:hover span{border-color:#000;background:#f8f8f8;color:#000}
+.caln td.hld a span,.wb .caln tr td.hld a span{color:#c35;font-weight:bold}
+.caln a span{padding:0px 2px;width:22px;display:block;border:2px solid #fff}
+.caln td.past a span{color:#999}
+.caln td.past.hld a span{color:#923;cursor:default;}
+.caln table.caln{background:#000;border:1px solid #ddd;padding:0 10px 10px 10px;margin:0;box-shadow:5px 5px 9px #888}
+.dinfo {position: absolute;background: #f8f8f8;margin-top: 8px;width: 180px;border: 1px solid #eee;padding: 4px;font-size: 12px;line-height: 16px;box-shadow: 5px 5px 5px #ccc;white-space: normal;-webkit-transition: border-color .2s ease,background .2s ease;-moz-transition: color .2s ease,border-color .2s ease,background .2s ease;-webkit-box-shadow: 5px 5px 5px #ccc;font: 12px 'Times New Roman',Times,FreeSerif,Georgia,serif;color: #333;letter-spacing: 2px;}
